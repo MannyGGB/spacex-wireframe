@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./images/spacex-background.jpg);
+  background-size: 100%;
+  font-family: sans-serif;
+  color: white;
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 300px;
+  height: 150px;
+}
+
+a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 0.9rem;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+h1 {
+  font-size: 1.3rem;
+}
+p {
+  font-weight: bold;
+  font-size: 2rem;
+}
+section button {
+  border: 2px solid white;
+  padding: 1rem;
+  background-color: transparent;
+  color: white;
+  font-size: 0.8rem;
+}
