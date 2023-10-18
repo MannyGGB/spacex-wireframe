@@ -59,13 +59,41 @@ section {
   margin-top: 25rem;
   margin-left: 1rem;
 }
+
+.animate {
+  animation-duration: 0.5s;
+  animation-name: animate-fade;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes animate-fade {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 h1 {
   font-size: 1.3rem;
 }
+
 p {
   font-weight: bold;
   font-size: 2rem;
 }
+
 section button {
   margin-top: 2rem;
   border: 2px solid white;
